@@ -1,0 +1,8 @@
+a.button, .countdown_amount, input[type='text'] {
+  padding-top:10px;
+}
+
+.countdown_amount {
+  width: 30px;
+  height: 30px;
+}
