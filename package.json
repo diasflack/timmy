@@ -1,0 +1,29 @@
+{
+  "name": "timmy",
+  "version": "0.0.1",
+  "description": "Personal time managment project",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://diasflack@github.com/diasflack/timmy.git"
+  },
+  "keywords": [
+    "timemanagment"
+  ],
+  "author": "diasflack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diasflack/timmy/issues"
+  },
+  "homepage": "https://github.com/diasflack/timmy",
+  "dependencies": {
+    "logfmt": "^1.1.2",
+    "express": "^4.4.5"
+  },
+  "engines": {
+	  "node": "0.10.x"
+  }
+}
