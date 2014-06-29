@@ -2,7 +2,7 @@
   "name": "timmy",
   "version": "0.0.1",
   "description": "Personal time managment project",
-  "main": "web.js",
+  "main": "web-server.js",
   "repository": {
     "type": "git",
     "url": "https://diasflack@github.com/diasflack/timmy.git"
@@ -16,14 +16,6 @@
     "url": "https://github.com/diasflack/timmy/issues"
   },
   "homepage": "https://github.com/diasflack/timmy",
-  "scripts": {
-  	"prestart": "npm install",
-  	"start": "http-server -p 8000"
-  },
-  "dependencies": {
-    "logfmt": "^1.1.2",
-    "express": "^4.4.5"
-  },
   "engines": {
 	  "node": "0.10.x" 
   }
