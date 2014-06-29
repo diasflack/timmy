@@ -17,7 +17,11 @@
   },
   "dependencies": {
 	"logfmt": "^1.1.2",
-    "express": "^4.4.5"
+    "express": "^4.4.5",
+    "http-server": "^0.6.1"
+  },
+  "scripts": {
+    "start": "http-server -p 5000"
   },
   "homepage": "https://github.com/diasflack/timmy",
   "engines": {
