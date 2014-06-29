@@ -2,7 +2,7 @@
   "name": "timmy",
   "version": "0.0.1",
   "description": "Personal time managment project",
-  "main": "web-server.js",
+  "main": "web.js",
   "repository": {
     "type": "git",
     "url": "https://diasflack@github.com/diasflack/timmy.git"
@@ -14,6 +14,10 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/diasflack/timmy/issues"
+  },
+  "dependencies": {
+	"logfmt": "^1.1.2",
+    "express": "^4.4.5"
   },
   "homepage": "https://github.com/diasflack/timmy",
   "engines": {
