@@ -19,6 +19,9 @@
   "scripts": {
   	"prestart": "npm install",
   	"start": "http-server -p 8000",
+    "pretest": "npm install",
+    "test": "karma start test/karma.conf.js",
+    "test-single-run": "karma start test/karma.conf.js  --single-run"
   },
   "dependencies": {
     "logfmt": "^1.1.2",
