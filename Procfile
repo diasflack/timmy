@@ -1,1 +1,1 @@
-web: npm web-server.js
+web: node web-server.js
